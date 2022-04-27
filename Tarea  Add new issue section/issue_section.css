@@ -1,7 +1,7 @@
 .regresarPagina {
 	color: black;
 	text-decoration: none;
-    font-weight: bolder;
+   	font-weight: bolder;
 }
 
 .cuerpo{
@@ -13,10 +13,10 @@
 
 .contenedor_Principal{
 	background-color: white;
-    color: var(--dark-color);
+    	color: var(--dark-color);
 	position: relative;
 	margin-top: 50px;
-    width:60%;
+   	width:60%;
 	border-radius: 20px;
 	display: flex;
 	flex-direction: column;
@@ -31,7 +31,7 @@
 .contenedor_Principal > select {
 	background-color: var(--bg-tag-color);
 	padding: 9px;
-    border-radius: 9px;
+    	border-radius: 9px;
 	border: none;
 	color: var(--dark-color);
     
@@ -39,8 +39,8 @@
 
 .contenedor_Principal > img {
 	background-image: var(--main-gradiente);
-    padding: calc(var(--space-unit) * 1.5);
-    position: absolute;
+    	padding: calc(var(--space-unit) * 1.5);
+    	position: absolute;
 	top: -30px;
 	border-radius: 100%;
 	width: 7%;
@@ -48,7 +48,7 @@
 }
 
 ::placeholder{
-    text-align: justify;
+    	text-align: justify;
 	color: black;
 	font-weight: lighter;
 }
@@ -67,9 +67,9 @@
 }
 
 .contenedor_Principal > input {
-    color: var(--dark-color);
+    	color: var(--dark-color);
 	background-color: var(--bg-tag-color);
-    margin-top: 20px;
+    	margin-top: 20px;
 	border-radius:8px;
 	border: none;
 	padding: var(--space-unit);
