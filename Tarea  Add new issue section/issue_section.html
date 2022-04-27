@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Awesome web page Ricardo</title>
+</head>
+
+<body class="cuerpo">
+  <!--regresar pagina-->
+  <a href="index.html" class="regresarPagina"> <-- Go Back</a>
+
+  <div class="contenedor_Principal"> 
+
+    <img src="assets/writing.svg"/>
+    <h2>Editing Add a dark theme option'</h2>
+
+    <h3>Feedback title</h5>
+    <label for="titulo">Choose a category for your feedback</label>
+    <input type="text" name="title" placeholder="Please add a dark theme"/>
+
+    <h3>Category</h5>
+    <label class="label_options">Choose a category for your feedback</label>
+    <select>
+      <option>Feature</option>
+    </select>  
+
+    <h3>Update status</h5>
+    <label class="label_options">Change Feedback State</label>
+    <select>
+      <option>Planned</option>
+    </select> 
+
+    <h3>FeedBack Detail</h5>
+    <label for="feedBack">Include any specific comments on what ahould be improved, added, etc.</label>
+    <input class="ultimo_input" type="text" name="feedback-detail" placeholder="it would help people with ligh sensitivities and who prefer dark mode"/>
+
+    <div class="botones_abajo">
+        <button class="btn btn-danger">Delete</button> 
+        <button class="btn btn-secondary">Cancel</button>
+        <button class="btn btn-primary">Add Feedback</button>
+    </div>
+
+
+  </div>
+  
+</body>
+</html>
