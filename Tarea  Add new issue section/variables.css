@@ -1,0 +1,13 @@
+:root {
+  --light-color: #efefef;
+  --bg-tag-color: #F2F4FF;
+  --doing-color: #AD1FEA;
+  --dark-color: #373F68;
+  --warning-color: #D73737;
+  --doing-hover-color: #C75AF6;
+  --main-gradiente: linear-gradient(90deg, rgba(67, 18, 78 , 1) 0%, rgba(184, 83, 207 , 1) 68%, rgba(255, 0, 131, 1) 100%);
+  --space-unit: 8px;
+  --text-default: 20px;
+  --text-sm: 15px;  
+  --text-lg: 27px;
+}
