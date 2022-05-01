@@ -1,0 +1,149 @@
+@import "./reset.css";
+
+/*Barra inicio*/
+.details_barra {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: rgb(4, 23, 59 );
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size: 18px;
+}
+
+li a:hover {
+   background-color: #111;
+
+}   
+
+/*Barra final*/
+
+body {
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+	padding: 60px;
+	text-align: center;
+	background-color: white;
+	color: black;
+	font-size: 30px;
+	display: grid;
+    grid-template-columns:1fr 1.7fr;
+	margin-left:23%;
+	margin-right: 23%;
+	text-align: justify;
+	padding-bottom:4%;
+}
+
+.icons{
+	padding-top: 5%;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.img_header > img{
+	border-radius:100%;
+	height: auto;
+	width: 90%;
+
+	
+}
+
+.texto_header{
+	padding-left: 5%;
+}
+
+.texto_header>p{
+	font-size: 20px;
+}
+
+.sub_nav_principal{
+	text-align: center;
+	padding-top: 2%;
+	border-top: 1px solid #B5B6B8 ;
+	width: 50%;
+	margin-left: 25%;
+	list-style-type: none;
+
+	padding-top: 2.9%;
+}
+
+.a1{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-left: 1%;
+}
+
+.a2{
+
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	margin-left: 1%;
+
+}
+
+.a1:hover{
+	background-color: black;
+}
+
+/*Publicaciones*/
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 25px;
+	row-gap: 25px;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-top: 2%;
+	
+	
+	
+}
+
+.grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: none;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+.publicaciones{
+	background-color: #efefef;
+	padding-top: 2%;
+	margin-top: 3%;
+}
+.vendedor{
+	float: left;
+	margin-left: 3%;
+	margin-top: 1%;
+}

@@ -1,0 +1,135 @@
+@import "./reset.css";
+
+.body_newhome {
+    background-color: #efefef;
+    font-family: 'Jost', sans-serif;
+}
+
+/*Barra Inicio*/
+
+.amazonimg{
+    width: 9% ;
+    padding-top: 10px;
+    float: left;
+    padding-left: 20px;
+    justify-content: center;
+    padding-bottom: 0.7%;
+  }
+
+.barra{
+    background-color: rgb(4, 23, 59 );
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 2px;
+
+}
+
+li {
+    float: right;
+    padding-top: .5%;
+    font-size: 20px;
+}
+
+li a {
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black
+}
+
+/*Barra Inicio*/
+
+
+
+
+
+
+
+.flexbox_todo{
+    margin-top: 2%;
+
+}
+
+
+.flex-container {
+    display: flex;
+    
+    justify-content: center;
+    width:70%;
+    margin-left: 16%;
+    
+  }
+  
+
+.flex-container > div {
+    
+    margin: 10px;
+    padding-right: 6%;
+    font-size: 30px;
+    
+}
+
+.flex-container > .no_aside{
+    background-color: transparent;
+    margin-right:13%;     /* este mueve el bloque de abajo*/
+}
+
+.publicacion{
+    width: 67%;
+    background-color: white;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    border-radius: 15px;
+    
+    
+   
+}
+
+.aside{
+    width: 20%;
+    
+}
+
+.votes-tile{
+    width: 25%;
+    float: left;
+    margin-right: 5%;
+}
+
+.text{
+    font-size: 21px;
+}
+
+
+p{
+    font-size: 20px;
+}
+
+.recomendacion{
+    margin-left: 16.5%;
+    margin-bottom: 1%;
+
+}
+
+img{
+    border-radius: 30px;
+}
+.tag{
+    color: red;
+}
+
+#yellow{
+    color: goldenrod ;
+}
+
+
+
+    
